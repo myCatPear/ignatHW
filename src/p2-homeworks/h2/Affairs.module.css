@@ -1,3 +1,19 @@
-.someClass {
+.affairs{
+    max-width: 500px;
+    display: flex;
+    flex-direction: column;
+    padding-left: 10px;
+    margin-top: 10px;
+}
 
+.affair {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+.affairs__button {
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
 }

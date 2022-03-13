@@ -1,3 +1,9 @@
+.main {
+    display: inline-block;
+    text-align: center;
+}
+
+
 .messageForm__wrapper {
     display: flex;
     align-items: flex-end;
@@ -39,11 +45,13 @@
 }
 
 .messageForm__name {
-    color: cornsilk;
+    color: burlywood;
     margin: 0;
+    text-align: left;
 }
 
 .messageForm__message {
+    text-align: left;
     color: #fff;
     margin: 0;
     min-width: 200px;
@@ -55,6 +63,15 @@
     align-self: flex-end;
 }
 
+.formInput {
+    margin-top: 10px;
+}
 
+.formInput input{
+    background-color: #61dafb;
+}
 
-
+.formInput button {
+    margin-left: 10px;
+    background-color: #61dafb;
+}
