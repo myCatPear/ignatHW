@@ -3,5 +3,23 @@
 }
 
 .error {
-    border: 1px solid red;
+    border: 2px solid red;
+}
+
+.valid {
+    border: 1px solid black;
+}
+
+.greeting__form {
+    display: flex;
+    flex-direction: column;
+}
+
+.greeting__error {
+    color: red;
+    font-weight: 700;
+}
+
+.greeting__count {
+    font-weight: 700;
 }
