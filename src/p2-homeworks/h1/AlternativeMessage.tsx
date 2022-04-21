@@ -32,7 +32,7 @@ function AlternativeMessage() {
     return (
         <div className={classes.main}>
 
-            {dataMessages.map(d => <Message avatar={d.avatar} name={d.name} message={d.message} time={d.time}/>)}
+            {dataMessages.map((d,i) => <Message key={i} avatar={d.avatar} name={d.name} message={d.message} time={d.time}/>)}
             <div className={classes.formInput}>
                 <input value={message} onChange={inputMessageHandler}/>
                 <button onClick={sendMessageHandler}>Send</button>
