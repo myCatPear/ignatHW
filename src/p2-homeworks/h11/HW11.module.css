@@ -1,0 +1,9 @@
+.superRange {
+   display: flex;
+    max-width: 150px;
+    justify-content: space-between;
+}
+
+.value1 {
+    margin: 0 10px;
+}
