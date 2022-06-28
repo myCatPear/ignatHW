@@ -4,6 +4,11 @@
     justify-content: space-between;
 }
 
+.superDoubleRange {
+    max-width: 200px;
+    display: flex;
+}
+
 .value1 {
-    margin: 0 10px;
+    min-width: 20px;
 }
